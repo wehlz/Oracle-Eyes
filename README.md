@@ -13,15 +13,6 @@ A small Python toolkit for trading signal generation, historical scenario analys
 - `.gitignore` — Prevents committing local secrets and generated files.
 - `requirements.txt` — Python dependencies.
 
-## Safe GitHub publishing
-
-Yes — this repo is safe to publish publicly as long as you:
-
-1. Do not commit a real `.env` file.
-2. Keep the `.env` file local to your machine.
-3. Use `.env.example` only for placeholder values.
-
-`.gitignore` is included and already ignores `.env`, `*.env`, logs, compiled Python files, and other local artifacts.
 
 ## Requirements
 
